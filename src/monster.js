@@ -3,26 +3,20 @@ export function randomMonster(array) {
 
   const troll = {
     name: 'Troll',
-    strength: 8,
-    agility: 4,
-    intelligence: 3,
-    vitality: 6,
+    attack: 8,
+    health: 60,
   };
 
   const witch = {
     name: 'Witch',
-    strength: 8,
-    agility: 4,
-    intelligence: 3,
-    vitality: 6,
+    attack: 6,
+    health: 45,
   };
 
   const goblin = {
     name: 'Goblin',
-    strength: 8,
-    agility: 4,
-    intelligence: 3,
-    vitality: 6,
+    attack: 3,
+    vitality: 25,
   };
 
   const monsterArr = [troll, witch, goblin];
